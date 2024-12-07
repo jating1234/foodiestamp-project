@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/stylesheet5.css" />
+    <!-- <script type="text/javascript" src="registration.js"></script>  -->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>FoodieStamp-registration</title>
+    <div class="heads">
+        <img src="pic/logo.png" class="logo" alt="FoodieStamp logo"
+            style="width: 150px; height: 140px; float: right" /><br />
+        <pre><h1><span>Registration</span></h1></pre>
+        <!-- <p><b><span>Join Us</span></b></p> -->
+    </div>
+</head>
+
+<body style="background-image: url(pic/1.jpg)">
+    <div class="navi">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li>
+                <a class="active" href="registration.html">Register Yourself</a>
+            </li>
+            <li class="resi">
+                <a>Recipe</a>
+                <div class="drop">
+                    <a href="pizza.html">Pizza</a>
+                    <a href="burger.html">Burger</a>
+                    <a href="pasta.html">Pasta</a>
+                    <a href="pastries.html">Pastry</a>
+                    <a href="dosa.html">Dosa</a>
+            <li><a href="foodiefacts.html">Foodie Facts</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="review.html">Review</a></li>
+    </div>
+    </li>
+    </ul>
+    </div>
+    <br /><br /><br /><br />
+    <div>
+        <!-- <div class="alert">Your message has been sent</div> -->
+        <form class="registration" id="registration">
+            <label>Name :</label>
+            <input type="text" id="name" name="names" placeholder="Your Name..." /><br /><br />
+            <label>E-mail :</label>
+            <input type="email" id="mail" name="mails" placeholder="xyz@abc.com" /><br /><br />
+            <label> Password :</label>
+            <input type="password" id="password" name="password" placeholder="password"  /><br /><br />
+            <!-- <input type="radio" id="Gender" name="Genders"  value="male"> -->
+            <!-- <label for="male">Male</label><br><br> -->
+            <!-- <input type="radio" id="Gender" name="Genders" value="female"> -->
+            <!-- <label for="female">Female</label><br><br> -->
+            <label>Address</label>
+            <textarea type="text" id="address" name="address"
+                placeholder="KIET Group of Institutions,Ghaziabad,U.P - 201206"
+                style="height: 200px"></textarea><br /><br />
+            <button onclick="register" type="submit">Register</button>
+            <button onclick="reset" type="reset">Reset</button><br /><br />
+            <pre><a style="text-decoration: none;" href="login.html" class="alogin">Already have an account? Log in</a></pre>
+        </form>
+    </div>
+    <br /><br /><br /><br /><br />
+    <footer>Copyright (C) 2024 All Right Reserved</footer>
+    
+</body>
+<script src="./js/main.js"></script>
+</html>
